@@ -9,7 +9,7 @@ let operacao = null;
 const operacoes = {
     "+": (a,b) => a + b,
     "-": (a, b) => a - b,
-    "*": (a, b) => a * b,
+    "x": (a, b) => a * b,
     "÷": (a, b) => b === 0 ? "Error": a / b,
     "^":(a, b) => a ** b
 }
