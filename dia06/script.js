@@ -21,6 +21,8 @@ const adicionar = function (){
     inputCategoria.value = "";
     inputItem.focus();
 
+    exibir();
+
 }
 
 const exibir = function() {
